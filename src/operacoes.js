@@ -38,7 +38,7 @@ function raiz (num1) {
     if(isNaN(num1)){
         throw 'Não é numero'
     }
-    return num1 ** 0.5
+    return num1 = Math.sqrt(num1)
 }
 
 module.exports = {
